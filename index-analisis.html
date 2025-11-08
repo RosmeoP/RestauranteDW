@@ -31,7 +31,7 @@
 
             <!-- Logo y nombre -->
 
-            <a class="navbar-brand d-flex " href="#inicio">
+            <a class="navbar-brand d-flex align-items-center " href="#inicio">
                 <i class="bi bi-shop fs-2 me-2 text-warning"></i>
                 <span class="fw-bold fs-5">Sabor Salvadoreño</span>
             </a>
@@ -59,6 +59,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#horarios">Horarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galería</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contacto">Contacto</a>
@@ -556,7 +559,7 @@
             <div class="row g-4 justify-content-center">
                 
                 <!-- Lunes a Viernes -->
-                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
                     <div class="card bg-transparent border-success h-100 text-center">
                         <div class="card-body p-4">
                             <div class="bg-success rounded-circle d-inline-flex align-items-center justify-content-center mb-4" 
@@ -575,7 +578,7 @@
                 </div>
 
                 <!-- Sábados -->
-                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
                     <div class="card bg-transparent border-warning h-100 text-center">
                         <div class="card-body p-4">
                             <div class="bg-warning rounded-circle d-inline-flex align-items-center justify-content-center mb-4" 
@@ -594,7 +597,7 @@
                 </div>
 
                 <!-- Domingos -->
-                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-12 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
                     <div class="card bg-transparent border-info h-100 text-center">
                         <div class="card-body p-4">
                             <div class="bg-info rounded-circle d-inline-flex align-items-center justify-content-center mb-4" 
@@ -624,6 +627,144 @@
                             <small>Cerrado en días festivos nacionales. Consulte nuestras redes sociales para eventos especiales y menús de temporada.</small>
                         </div>
                     </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========================================
+         SECCIÓN GALERÍA
+    ========================================= -->
+    <section id="galeria" class="py-5 bg-light">
+        <div class="container py-4">
+            
+            <!-- Encabezado de sección -->
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <span class="badge bg-success text-white px-3 py-2 mb-3 rounded-pill">
+                        <i class="bi bi-images me-1"></i>
+                        Nuestra Galería
+                    </span>
+                    <h2 class="display-4 fw-bold mb-3">Momentos que Capturan Nuestro Sabor</h2>
+                    <p class="text-muted lead">Un vistazo a nuestros platillos, ambiente y equipo apasionado</p>
+                </div>
+            </div>
+
+            <!-- Grid de imágenes -->
+            <div class="row g-4">
+                
+                <!-- Imagen 1: Pupusas -->
+                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                    <div class="gallery-item position-relative overflow-hidden rounded-4 shadow-sm" style="height: 300px;">
+                        <img src="https://images.unsplash.com/photo-1617902271850-21d560795d60?w=800&h=600&fit=crop" 
+                             alt="Pupusas salvadoreñas recién hechas"
+                             class="w-100 h-100 object-fit-cover"
+                             loading="lazy">
+                        <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="background: rgba(0,0,0,0.5); opacity: 0; transition: opacity 0.3s;">
+                            <div class="text-white text-center">
+                                <i class="bi bi-zoom-in fs-1 mb-2"></i>
+                                <p class="fw-bold mb-0">Pupusas Tradicionales</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 2: Interior del restaurante -->
+                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="gallery-item position-relative overflow-hidden rounded-4 shadow-sm" style="height: 300px;">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=600&fit=crop" 
+                             alt="Interior acogedor del restaurante"
+                             class="w-100 h-100 object-fit-cover"
+                             loading="lazy">
+                        <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="background: rgba(0,0,0,0.5); opacity: 0; transition: opacity 0.3s;">
+                            <div class="text-white text-center">
+                                <i class="bi bi-zoom-in fs-1 mb-2"></i>
+                                <p class="fw-bold mb-0">Ambiente Familiar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 3: Chef cocinando -->
+                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="gallery-item position-relative overflow-hidden rounded-4 shadow-sm" style="height: 300px;">
+                        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=800&h=600&fit=crop" 
+                             alt="Chef preparando platillos salvadoreños"
+                             class="w-100 h-100 object-fit-cover"
+                             loading="lazy">
+                        <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="background: rgba(0,0,0,0.5); opacity: 0; transition: opacity 0.3s;">
+                            <div class="text-white text-center">
+                                <i class="bi bi-zoom-in fs-1 mb-2"></i>
+                                <p class="fw-bold mb-0">Nuestro Chef</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 4: Sopa de res -->
+                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="gallery-item position-relative overflow-hidden rounded-4 shadow-sm" style="height: 300px;">
+                        <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=800&h=600&fit=crop" 
+                             alt="Sopa de res humeante"
+                             class="w-100 h-100 object-fit-cover"
+                             loading="lazy">
+                        <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="background: rgba(0,0,0,0.5); opacity: 0; transition: opacity 0.3s;">
+                            <div class="text-white text-center">
+                                <i class="bi bi-zoom-in fs-1 mb-2"></i>
+                                <p class="fw-bold mb-0">Sopa de Res</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 5: Mesa servida -->
+                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="gallery-item position-relative overflow-hidden rounded-4 shadow-sm" style="height: 300px;">
+                        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop" 
+                             alt="Mesa con variedad de platillos"
+                             class="w-100 h-100 object-fit-cover"
+                             loading="lazy">
+                        <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="background: rgba(0,0,0,0.5); opacity: 0; transition: opacity 0.3s;">
+                            <div class="text-white text-center">
+                                <i class="bi bi-zoom-in fs-1 mb-2"></i>
+                                <p class="fw-bold mb-0">Variedad de Platillos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen 6: Atención al cliente -->
+                <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="gallery-item position-relative overflow-hidden rounded-4 shadow-sm" style="height: 300px;">
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&h=600&fit=crop" 
+                             alt="Equipo atendiendo a clientes"
+                             class="w-100 h-100 object-fit-cover"
+                             loading="lazy">
+                        <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                             style="background: rgba(0,0,0,0.5); opacity: 0; transition: opacity 0.3s;">
+                            <div class="text-white text-center">
+                                <i class="bi bi-zoom-in fs-1 mb-2"></i>
+                                <p class="fw-bold mb-0">Atención Personalizada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Texto adicional -->
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="text-muted">
+                        <i class="bi bi-camera-fill text-success me-2"></i>
+                        Síguenos en nuestras redes sociales para ver más fotos de nuestros platillos y eventos especiales
+                    </p>
                 </div>
             </div>
 
